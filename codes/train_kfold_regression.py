@@ -66,7 +66,7 @@ def cross_validation(train_esm, train_prot, train_label, valid_esm, valid_prot, 
 
 
     qa_model = get_model()
-    valiBestModel = f'F:\\protein_stability\\save_model\\Kfold\\S394\\model_10fold_181_regular_{i}_{k}.h5'
+    valiBestModel = f'F:\\protein_stability\\save_model\\Kfold\\S394\\model_10fold_181_{i}_{k}.h5'
 
 
     checkpointer = tf.keras.callbacks.ModelCheckpoint(
