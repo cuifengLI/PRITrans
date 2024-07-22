@@ -80,10 +80,8 @@ class MultiScaleConvA(layers.Layer):
         Add3 = self.add3([maxpool31, maxpool32, maxpool33])
         BN3 = self.bn3(Add3)
 
-#         print(BN3.shape[1])
         BN3 = adaptive_arg_pool2d(BN3, BN3.shape[1], BN3.shape[2])
         flat = self.flat(BN3)
-#         print(flat.shape)
 
         return flat
 
