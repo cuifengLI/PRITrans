@@ -16,7 +16,7 @@ tensorboard==2.14.0\
 tensorflow==2.3.0\
 numpy==1.18.5\
 pandas==1.1.5\
-ppython==3.8
+python==3.8
 
 Run
 ===
