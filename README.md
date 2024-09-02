@@ -5,6 +5,7 @@ Protein-RNA interactions are essential for numerous cellular processes, and miss
 
 Install Dependencies
 ===
+  '''
   h5py==2.10.0\
   matplotlib==3.5.0\
   Keras==2.3.1\
@@ -16,6 +17,7 @@ Install Dependencies
   numpy==1.18.5\
   pandas==1.1.5\
   ppython==3.8
+  '''
 
 Run
 ===
