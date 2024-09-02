@@ -5,17 +5,17 @@ Protein-RNA interactions are essential for numerous cellular processes, and miss
 
 Install Dependencies
 ===
-h5py==2.10.0\
-matplotlib==3.5.0\
-Keras==2.3.1\
-scikit-learn==1.2.2\
-scipy==1.4.1\
-seaborn==0.13.2\
-tensorboard==2.14.0\
-tensorflow==2.3.0\
-numpy==1.18.5\
-pandas==1.1.5\
-ppython==3.8
+  h5py==2.10.0\
+  matplotlib==3.5.0\
+  Keras==2.3.1\
+  scikit-learn==1.2.2\
+  scipy==1.4.1\
+  seaborn==0.13.2\
+  tensorboard==2.14.0\
+  tensorflow==2.3.0\
+  numpy==1.18.5\
+  pandas==1.1.5\
+  ppython==3.8
 
 Run
 ===
@@ -23,7 +23,7 @@ Run
 We provide the regression model and classification model files used in this paper, namely codes/model_regression.py and codes/model_classify.py, respectively.\
 We provide two essential component modules from the paper, namely codes/Encoder.py and codes/Mutil_scale_prot.py, respectively.\
 To train your own data, use the codes/train_kfold_regression.py and codes/train_kfold_classify.py files, respectively.\
-To validate the model's performance on the independent test set, please use the codes/test_indep_regression.py file.\
+To validate the model's performance on the independent test set, please use the codes/test_indep_regression.py file.
 
 Contact
 ===
