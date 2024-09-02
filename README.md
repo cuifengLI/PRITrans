@@ -2,8 +2,6 @@ PRITrans
 ===
 
 Protein-RNA interactions are essential for numerous cellular processes, and missense mutations in RNA-binding proteins can disrupt these interactions, contributing to disease pathogenesis. We introduced PRITrans, a Transformer-based deep learning framework to predict the effects of missense mutations on protein-RNA interactions. Compared to existing methods, PRITrans shows significant performance improvements by integrating ESM-2 and ProtTrans features and utilizing both Transformer and multi-scale convolution modules. This approach enhances feature extraction and model architecture, leading to better prediction accuracy and stability. Furthermore, future research should focus on optimizing the model architecture for higher accuracy. Expanding PRITrans to other bioinformatics applications and incorporating additional biological data will improve its generalization and precision. Thus, PRITrans has the potential to significantly impact biomedical research, supporting both scientific and practical applications.
-![image](https://github.com/user-attachments/assets/27148188-1c29-4014-bac5-3832b73f8d10)
-
 
 Install Dependencies
 ===
