@@ -26,6 +26,12 @@ We provide two essential component modules from the paper, namely codes/Encoder.
 To train your own data, use the codes/train_kfold_cross_validation_S315.py and train_kfold_cross_validation_S630.py or codes/train_CV2_validation_S315.py and train_CV2_validation_S630.py.\
 To validate the model's performance on the independent test set, please use the codes/test_indep_S158.py or test_inde_S79.py and codes/predict.py file.
 
+
+Note
+===
+The files `codes/train_CV2_validation_S315.py` and `codes/train_CV2_validation_S630.py` contain the training code for performing CV2 cross-validation on the forward dataset and the total dataset (forward + reverse), respectively. If you wish to use CV1 cross-validation, you only need to adjust the dataset split in these two files according to the method described in the paper. The files `codes/train_kfold_cross_validation_S315.py` and `codes/train_kfold_cross_validation_S630.py` contain the training code for performing CV3 cross-validation on the forward dataset and the total dataset (forward + reverse), respectively.
+
+
 Contact
 ===
 
