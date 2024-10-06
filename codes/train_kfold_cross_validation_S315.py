@@ -10,7 +10,7 @@ from sklearn.model_selection import StratifiedShuffleSplit, KFold
 from sklearn import metrics
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from scipy.stats import pearsonr, spearmanr
-from sklearn.linear_model import LinearRegression  # 引入线性回归模型
+from sklearn.linear_model import LinearRegression 
 import openpyxl as op
 import matplotlib.pyplot as plt
 import warnings
