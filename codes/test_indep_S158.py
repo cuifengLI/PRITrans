@@ -14,7 +14,7 @@ import seaborn as sb
 
 warnings.filterwarnings("ignore")
 
-filename = 'F:\\protein_stability\\result\\S158_deeplearn_indepresult.xlsx'
+filename = 'F:\\protein_stability\\result\\XXXXXX.xlsx'
 
 
 def op_toexcel(data, filename):
@@ -70,7 +70,7 @@ def evaluate_regression(modelFile):
         'Predict': y_pred,
     })
     
-    filename2 = 'F:\\protein_stability\\result\\181_indeplabel.xlsx'
+    filename2 = 'F:\\protein_stability\\result\\XXXXXX.xlsx'
     try:
         book = load_workbook(filename2)  
         book.remove(book.active)  
