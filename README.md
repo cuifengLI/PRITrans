@@ -21,10 +21,10 @@ python==3.8
 Run
 ===
 
-We provide the regression model and classification model files used in this paper, namely codes/model_regression.py and codes/model_classify.py, respectively.\
+We provide the model file used in this paper, namely codes/model.py
 We provide two essential component modules from the paper, namely codes/Encoder.py and codes/Mutil_scale_prot.py, respectively.\
-To train your own data, use the codes/train_kfold_regression.py and codes/train_kfold_classify.py files, respectively.\
-To validate the model's performance on the independent test set, please use the codes/test_indep_regression.py file.
+To train your own data, use the codes/train_kfold_regression.py
+To validate the model's performance on the independent test set, please use the codes/test_indep.py file.
 
 Contact
 ===
