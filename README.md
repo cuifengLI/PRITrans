@@ -21,9 +21,9 @@ python==3.8
 Run
 ===
 
-We provide the model file used in this paper, namely codes/model.py
+We provide the model file used in this paper, namely codes/model.py.\
 We provide two essential component modules from the paper, namely codes/Encoder.py and codes/Mutil_scale_prot.py, respectively.\
-To train your own data, use the codes/train_kfold_regression.py
+To train your own data, use the codes/train_kfold_regression.py.\
 To validate the model's performance on the independent test set, please use the codes/test_indep.py file.
 
 Contact
