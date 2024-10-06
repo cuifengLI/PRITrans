@@ -21,10 +21,10 @@ python==3.8
 Run
 ===
 
-We provide the model file used in this paper, namely codes/model.py.\
-We provide two essential component modules from the paper, namely 'codes/Encoder.py' and 'codes/Mutil_scale_prot.py', respectively.\
-To train your own data, use the 'codes/train_kfold_cross_validation_S315.py' and 'codes/train_kfold_cross_validation_S630.py' or 'codes/train_CV2_validation_S315.py' and 'codes/train_CV2_validation_S630.py'.\
-To validate the model's performance on the independent test set, please use the 'codes/test_indep_S158.py' or 'codes/test_inde_S79.py' and 'codes/predict.py' file.
+We provide the model file used in this paper, namely `codes/model.py`.\
+We provide two essential component modules from the paper, namely `codes/Encoder.py` and `codes/Mutil_scale_prot.py`, respectively.\
+To train your own data, use the `codes/train_kfold_cross_validation_S315.py` and `codes/train_kfold_cross_validation_S630.py` or `codes/train_CV2_validation_S315.py` and `codes/train_CV2_validation_S630.py`.\
+To validate the model's performance on the independent test set, please use the `codes/test_indep_S158.py` or `codes/test_inde_S79.py` and `codes/predict.py` file.
 
 
 Note
