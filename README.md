@@ -24,7 +24,7 @@ Dataset
 We provide the dataset file used in this paper, namely `dataset/dataset_S394.xlsx`.
 
 
-Run
+Code and Run
 ===
 
 We provide the model file used in this paper, namely `codes/model.py`.\
