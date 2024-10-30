@@ -52,7 +52,7 @@ def evaluate_regression(modelFile):
     rmse = np.sqrt(mse)
     r2 = r2_score(y_true, y_pred)
     pearsonr_corr, p_value = pearsonr(y_true, y_pred)
-    delta = np.mean(np.abs(y_true - y_pred))  # 计算偏差
+    delta = np.mean(np.abs(y_true - y_pred)) 
 
     print(f"INDE Mean Squared Error (MSE): {mse:.4f}")
     print(f"INDE Mean Absolute Error (MAE): {mae:.4f}")
