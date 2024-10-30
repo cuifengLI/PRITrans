@@ -41,13 +41,10 @@ def evaluate_regression(modelFile):
     all_label = all_label.astype(np.float)
     print(all_label.dtype)
 
-    # 将数据在进行交叉验证之前，划分出20%作为独立测试集(S79)
     all_esm_train, all_esm_inde, all_prot_train, all_prot_inde, all_label_train, all_label_inde = train_test_split(
         all_esm, all_prot, all_label, test_size=0.2, random_state=42)
-    print("训练、验证及测试样本数量:", len(all_label_train))
     print(all_label_train.shape)
     print(all_label)
-    print("独立测试集样本数量:", len(all_label_inde))
     print(all_label_inde.shape)
     print(all_label_inde)
 
